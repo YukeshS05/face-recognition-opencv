@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Face Recognition",
+      "type": "shell",
+      "command": "cl.exe",
+      "args": [
+        "/EHsc",
+        "/std:c++17",
+        "/MD",
+        "/I", "D:/vcpkg/installed/x64-windows/include",
+        "/I", "D:/vcpkg/installed/x64-windows/include/opencv4",
+        "${workspaceFolder}/src/main.cpp",
+        "/link",
+        "/LIBPATH:D:/vcpkg/installed/x64-windows/lib",
+        "opencv_world4120.lib",
+        "/OUT:${workspaceFolder}/FaceRecognition.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$msCompile"],
+      "options": {
+        "env": {
+          "PATH": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64;C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE;${env:PATH}"
+        }
+      }
+    }
+  ]
+}

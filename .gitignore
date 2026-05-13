@@ -1,0 +1,17 @@
+# Build output
+FaceRecognition.exe
+*.obj
+*.pdb
+*.ilk
+
+# Trained model (large file)
+data/trained_model.yml
+
+# Personal face photos (privacy)
+data/known_faces/
+
+# VS Code local settings
+.vscode/launch.json
+
+# Screenshots
+screenshot_*.jpg
