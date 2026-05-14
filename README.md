@@ -10,7 +10,7 @@ capable of identifying known individuals and flagging unknown faces using a live
 > Green box = Known person | Red box = Unknown person
 
 <!-- Add your screenshot here after uploading -->
-![Demo Screenshot](screenshot_1778704065.jpg)
+![Demo Screenshot](screenshot.jpg)
 
 ---
 
