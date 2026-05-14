@@ -143,5 +143,5 @@ const double CONFIDENCE_THRESHOLD = 80.0;
 
 **Yukesh** — Built as a computer vision learning project.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/YOUR_USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/yukesh-s)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/YukeshS05)
